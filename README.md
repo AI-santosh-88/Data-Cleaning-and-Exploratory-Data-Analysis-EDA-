@@ -16,6 +16,19 @@ This project involves cleaning a raw dataset of employee information and perform
 * Identifying potential correlations or patterns between features (e.g., Experience vs. Salary).
 * Summarizing the dataset to uncover insights and trends.
 #### 4.Data Export:
-Saving the cleaned data in a CSV file for further analysis or use in machine learning models.
+* Saving the cleaned data in a CSV file for further analysis or use in machine learning models.
 
+### Libraries Used:
+##### * pandas: 
+For data manipulation and cleaning.
+##### * numpy: 
+For handling missing values and numerical operations.
+##### * matplotlib: 
+For basic data visualization (e.g., histograms).
+##### * seaborn: 
+For advanced visualizations like regression plots.
+##### * warnings:
+For suppressing warning messages during the analysis process.
 
+#### Summary: 
+This project cleans an employee dataset by addressing issues such as missing values, special characters, and improper formats. After transforming the data, it employs basic data visualization techniques to explore relationships between employee experience and salary, providing valuable insights into the data. The cleaned dataset is then saved in a CSV file for further use. The project utilizes pandas, numpy, matplotlib, and seaborn for data manipulation and visualization.
